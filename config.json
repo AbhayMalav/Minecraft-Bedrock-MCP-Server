@@ -50,6 +50,38 @@
     {
       "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack",
       "label": "Resource Pack Intro"
+    },
+    {
+      "url": "https://jaylydev.github.io/scriptapi-docs/",
+      "label": "ScriptAPI Docs"
+    },
+    {
+      "url" : "https://wiki.bedrock.dev/",
+      "label" : "Bedrock Wiki"
+    },
+    {
+      "url" : "https://wiki.bedrock.dev/json-ui/json-ui-documentation",
+      "label" : "JSON UI Documentation"
+    },
+    {
+      "url" : "https://bugs.mojang.com/browse/MCPE",
+      "label" : "MCPE Bugs"
+    },
+    {
+      "url" : "https://bedrock-resources.vercel.app/",
+      "label" : "Bedrock Snippets"
+    },
+    {
+      "url":"https://learn.microsoft.com/en-us/minecraft/creator/documents/scripting/v2-overview?view=minecraft-bedrock-stable",
+      "label" : "Scripting V2 Overview"
+    },
+    {
+      "url":"https://learn.microsoft.com/en-us/minecraft/creator/documents/scripting/introduction?view=minecraft-bedrock-stable",
+      "label" : "Scripting Introduction"
+    },
+    {
+      "url":"https://github.com/RMPlaysMCYT/Minecraft-Tools-and-Software",
+      "label" : "Minecraft Tools and Software"
     }
   ]
 }
