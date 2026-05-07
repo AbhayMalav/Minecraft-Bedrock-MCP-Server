@@ -1,0 +1,23 @@
+# Source files (we only ship compiled dist/)
+src/
+scripts/
+*.ts
+
+# Dev config
+tsconfig.json
+.github/
+
+# Test files (if any added later)
+test/
+*.test.js
+*.spec.js
+
+# Local data
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.gitignore

@@ -1,0 +1,55 @@
+{
+  "dbPath": "./data/bedrock-docs.db",
+  "maxContentLength": 12000,
+  "crawlDelayMs": 600,
+  "sources": [
+    {
+      "url": "https://wiki.bedrock.dev/scripting/scripting-intro.html",
+      "label": "Scripting Intro"
+    },
+    {
+      "url": "https://wiki.bedrock.dev/scripting/script-server.html",
+      "label": "Script Server"
+    },
+    {
+      "url": "https://wiki.bedrock.dev/scripting/typescript.html",
+      "label": "TypeScript Setup"
+    },
+    {
+      "url": "https://wiki.bedrock.dev/scripting/script-net.html",
+      "label": "Script Net/HTTP"
+    },
+    {
+      "url": "https://wiki.bedrock.dev/items/items-intro.html",
+      "label": "Items"
+    },
+    {
+      "url": "https://wiki.bedrock.dev/blocks/blocks-intro.html",
+      "label": "Blocks"
+    },
+    {
+      "url": "https://wiki.bedrock.dev/entities/entity-intro-bp.html",
+      "label": "Entities (Behavior Pack)"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/minecraft-server",
+      "label": "@minecraft/server Module"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/scripting/next-steps",
+      "label": "Scripting Next Steps"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/addentity",
+      "label": "Add Custom Entity"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/behaviorpack",
+      "label": "Behavior Pack Intro"
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/minecraft/creator/documents/resourcepack",
+      "label": "Resource Pack Intro"
+    }
+  ]
+}
