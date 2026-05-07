@@ -1,6 +1,6 @@
 {
   "name": "mcbedrock-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "MCP server for Minecraft Bedrock Edition scripting and addon documentation. Gives AI assistants access to Bedrock scripting API docs via search tools.",
   "main": "dist/src/index.js",
   "bin": {
