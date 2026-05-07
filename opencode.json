@@ -1,0 +1,44 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "default_agent": "build",
+    "plugin": [
+      "ecc-universal", "superpowers@git+https://github.com/obra/superpowers.git"
+    ],
+    "mcp": {
+      "memory": {
+        "type": "local",
+        "command": ["npx", "-y", "@modelcontextprotocol/server-memory"],
+        "enabled": true
+      },
+      "sequential-thinking": {
+        "type": "local",
+        "command": ["npx", "-y", "@modelcontextprotocol/server-sequential-thinking"],
+        "enabled": true
+      },
+      "filesystem": {
+        "type": "local",
+        "command": [
+          "npx", "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "C:/Users/PB-Abhay/Desktop/Work/Personal/Personal projects/Minecraft Bedrock MCP Server"
+        ],
+        "enabled": true
+      },
+      "context7": {
+        "type": "local",
+        "command": ["npx", "-y", "@upstash/context7-mcp@latest"],
+        "enabled": true
+      },
+      "magic": {
+        "type": "local",
+        "command": ["npx", "-y", "@magicuidesign/mcp@latest"],
+        "enabled": true
+      },
+      "token-optimizer": {
+        "type": "local",
+        "command": ["npx", "-y", "token-optimizer-mcp"],
+        "enabled": true
+      }
+    }
+  }
+  
