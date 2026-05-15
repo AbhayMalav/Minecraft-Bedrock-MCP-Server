@@ -26,24 +26,16 @@ npm start
 You should see: `[mcbedrock-mcp] Server started and ready.`
 Press Ctrl+C.
 
-## Claude Desktop Configuration
+## Opencode/Claude/Codex/Antigravity or any agent Harnes Configuration
 
-Add to `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS)
-or `%APPDATA%\Claude\claude_desktop_config.json` (Windows):
 
 ```json
-{
-  "mcpServers": {
-    "mcbedrock": {
-      "command": "node",
-      "args": ["/ABSOLUTE/PATH/TO/mcbedrock-mcp/dist/src/index.js"]
+"mcbedrock": {
+      "type": "local",
+      "command": ["npx", "-y", "mcbedrock-mcp"],
+      "enabled": true
     }
-  }
-}
 ```
-
-Replace `/ABSOLUTE/PATH/TO/` with the real path to this project folder.
-
 ## Available MCP Tools
 
 | Tool | Description |
